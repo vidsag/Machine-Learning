@@ -2,7 +2,7 @@ var natural =require('natural')
 var qapair=require('./question_answer_pair.json')
 
 var questioncount=71
-//finds matching count on the questions,calls findIndex and returns Index of the match
+//finds matching count on the questions,calls findIndex and returns Index of the match.
 var algorithm= {
     findCountAndIndex: function (tokens) {
         var questionzerocount = []
