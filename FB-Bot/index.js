@@ -27,7 +27,7 @@ app.get('/webhook/', function (req, res) {
     res.send('Error, wrong token')
 })
 
-// Spin up the server
+// Spin up the server.
 app.listen(app.get('port'), function() {
     console.log('running on port', app.get('port'))
 })
