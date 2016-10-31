@@ -1,0 +1,44 @@
+This is the code for Game of Life 
+
+The input size is given in the command line.
+The no. of generations required can also be specified by altering the "gen".
+
+Test case 1:
+
+Enter String
+XX
+XX
+Generation 1:
+XX
+XX
+
+Test case 2:
+
+Enter String
+OXXX
+XXXO
+Generation 1:
+XOOX
+XOOX
+
+Test case 3 :
+
+Enter String
+XXO
+XOX
+OXO
+Generation 1:
+XXO
+XOX
+OXO
+
+Test case 4:
+
+Enter String
+OXO
+OXO
+OXO
+Generation 1:
+OOO
+XXX
+OOO
